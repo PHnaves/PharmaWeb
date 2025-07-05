@@ -1,61 +1,80 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 💊 PharmaWeb – Aplicação para Administração de Estoque de Medicamentos em Ambientes Hospitalares
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 📌 Visão Geral
 
-## About Laravel
+A organização no ambiente hospitalar é fundamental para garantir um atendimento de qualidade. Um dos principais desafios enfrentados por instituições como UPAs, hospitais e AMAs é a ausência de controle eficiente do estoque de medicamentos — o que pode comprometer diretamente a saúde dos pacientes.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A **PharmaWeb** propõe uma solução moderna e acessível: uma aplicação web responsiva voltada ao controle e à gestão de medicamentos hospitalares, permitindo que médicos e farmacêuticos tenham total clareza sobre a disponibilidade dos itens em tempo real.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🩺 Motivação
 
-## Learning Laravel
+A ideia da PharmaWeb nasceu a partir de uma experiência pessoal em uma UPA, onde, ao tentar retirar medicamentos com uma receita médica, fui informado de que todos estavam em falta — mesmo após a médica ter consultado uma lista impressa. Esse cenário evidenciou a necessidade urgente de uma solução tecnológica eficaz e acessível, tanto para médicos quanto para farmacêuticos.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🌐 Por Que uma Aplicação Web?
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* ✅ Acessível via navegador em qualquer dispositivo (celular, tablet, computador)
+* ✅ Não ocupa espaço no dispositivo
+* ✅ Interface intuitiva e responsiva
+* ✅ Ideal para ambientes hospitalares com infraestrutura limitada
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🛠️ Tecnologias Escolhidas
 
-### Premium Partners
+* **Laravel** – Framework robusto e seguro baseado em PHP
+* **Blade** – Sistema de templates dinâmico e reutilizável
+* **Tailwind CSS** – Framework moderno para interfaces responsivas e elegantes
+* **MongoDB** – Banco de dados NoSQL, ideal para estruturação flexível e escalável de dados
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## ✅ Funcionalidades
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 👨‍⚕️ Médicos
 
-## Code of Conduct
+* Visualizar medicamentos disponíveis
+* Ver detalhes dos medicamentos
+* Pesquisar medicamentos por nome
+* Filtros de visualização:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+  * Ordem alfabética (A-Z / Z-A)
+  * Quantidade em estoque
+  * Mais usados / Menos usados
+* Notificações de medicamentos recentemente removidos
+* Logout seguro
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 💊 Farmacêuticos
 
-## License
+* CRUD completo de medicamentos
+* Filtros de visualização:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+  * Ordem alfabética (A-Z / Z-A)
+  * Quantidade em estoque
+  * Mais usados / Menos usados
+* Busca por nome de medicamento
+* Geração de relatórios:
+
+  * Mais usados / Menos usados
+* Notificações de estoque baixo
+* Logout seguro
+
+---
+
+### 🛡️ Administrador
+
+* CRUD completo de usuários (Médicos/Farmacêuticos)
+* Controle e visualização de movimentações do sistema
+* Acesso a todas as funcionalidades da aplicação
+
+---
+
+## 📌 Conclusão
+
+A **PharmaWeb** nasce da realidade e busca transformar um problema cotidiano da saúde pública em uma oportunidade de melhoria com impacto direto na vida das pessoas. Com organização, tecnologia e acessibilidade, essa solução visa otimizar a gestão hospitalar, minimizar falhas operacionais e, principalmente, melhorar a qualidade no atendimento.
+
