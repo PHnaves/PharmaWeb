@@ -28,7 +28,7 @@ A ideia da PharmaWeb nasceu a partir de uma experiência pessoal em uma UPA, ond
 * **Laravel** – Framework robusto e seguro baseado em PHP
 * **Blade** – Sistema de templates dinâmico e reutilizável
 * **Bootstrap** – Framework CSS
-* **MongoDB** – Banco de dados NoSQL, ideal para estruturação flexível e escalável de dados
+* **MySQL** – Banco de dados
 
 ---
 
